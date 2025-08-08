@@ -69,3 +69,14 @@ a{
     text-decoration: none;
     color:#fff
 }
+
+@media (min-width: 765px) and (max-width: 990px) {
+    .col-12.col-md-4 {
+        flex: 0 0 100% !important; /* Force the cards to stack vertically */
+        max-width: 100% !important; /* Ensure it doesn't go beyond the available width */
+   margin-left: -10px;
+        width: 100% !important; /* Ensure the card takes full width */
+        height: auto; /* Adjust height based on content */
+        margin-bottom: 20px; /* Add some space between the cards */
+    }
+}
